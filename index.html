@@ -41,6 +41,9 @@
 		font-family: "Pokemon GB";
 		font-size: 1rem;
 	}
+	pre {
+		font-family: "Helvetica", Arial, sans-serif;
+	}
   
 	div.herodiv
 	{
@@ -50,15 +53,36 @@
 	img.hero {
 		width: 100%;
 	}
+	a {
+		white-space: no-wrap;
+	}
+	td {
+		padding-top: 1em;
+	}
 	@media only screen and (min-width: 767px) {
 		img.hero {
 			width: 50%;
+		}
+	}
+	@media only screen and (min-width: 991px) {
+		img.hero {
+			width: 40%;
 		}
 	}
 	@media only screen and (min-width: 1200px) {
 		img.hero {
 			width: 33%;
 		}
+	}
+	@media only screen and (min-width: 1400px) {
+		wbr {
+			display: none;
+		}
+		td:first-child {
+			text-align: right;
+		}
+	}
+	@media only screen and (min-width: 1600px) {
 	}
   </style>
 </head>
@@ -74,12 +98,65 @@
 		<p>
 			<!--<center>Wild MISSINGNO. appeared!</center>-->
 		
-			<br />Name: MISSINGNO.
-			<br />Ticker: ???
-			<br />Contract address: 0x4635172bf813f0d4148d8ac4f2062aec48c8f192
-			<br />Poocoin: <a href="https://poocoin.app/tokens/0x4635172bf813f0d4148d8ac4f2062aec48c8f192">poocoin.app/tokens/0x4635172bf813f0d4148d8ac4f2062aec48c8f192</a>
-			<br />Pancakeswap: <a href="https://pancakeswap.finance/swap?outputCurrency=0x4635172bf813f0d4148d8ac4f2062aec48c8f192">pancakeswap.finance/swap?outputCurrency=0x4635172bf813f0d4148d8ac4f2062aec48c8f192</a>
-			<br />Telegram: <a href="https://t.me/missingnobsc">t.me/missingnobsc</a>
+		</p>
+		<table>
+			<tr>
+				<td>
+					Name:&nbsp;
+				</td>
+				<td>
+					MISSINGNO.
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Ticker:&nbsp;
+				</td>
+				<td>
+					&#xfffd;&#xfffd;&#xfffd;
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Contract&nbsp;<wbr>address:&nbsp;
+				</td>
+				<td>
+					0x46351<wbr>72bf8<wbr>13f0d414<wbr>8d8ac4f<wbr>2062aec4<wbr>8c8f192
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Pancake<wbr>swap:&nbsp;
+				</td>
+				<td>
+					<a href="https://pancakeswap.finance/swap?outputCurrency=0x4635172bf813f0d4148d8ac4f2062aec48c8f192">https://<wbr>pancake<wbr>swap.<wbr>finance/<wbr>swap?<wbr>output<wbr>Currency=<wbr>0x46351<wbr>72bf8<wbr>13f0d414<wbr>8d8ac4f<wbr>2062aec4<wbr>8c8f192</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Poocoin:&nbsp;
+				</td>
+				<td>
+					<a href="https://poocoin.app/tokens/0x4635172bf813f0d4148d8ac4f2062aec48c8f192">https://<wbr>poocoin<wbr>.app/<wbr>tokens/<wbr>0x46351<wbr>72bf8<wbr>13f0d414<wbr>8d8ac4f<wbr>2062aec48<wbr>c8f192</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Token<wbr>Sniffer:&nbsp;
+				</td>
+				<td>
+					<a href="https://tokensniffer.com/token/0x4635172bf813f0d4148d8ac4f2062aec48c8f192">https://<wbr>token<wbr>sniffer<wbr>.com/<wbr>token/<wbr>0x46351<wbr>72bf8<wbr>13f0d414<wbr>8d8ac4f<wbr>2062aec4<wbr>8c8f192</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Telegram:&nbsp;
+				</td>
+				<td>
+					<a href="https://t.me/missingnobsc">https://<wbr>t.me/<wbr>missingno<wbr>bsc</a>
+				</td>
+			</tr>
+		</table>
 			
 			
 			<br />
@@ -88,7 +165,7 @@
 			<br />5% GOES TO TOKEN HOLDERS
 			<br />
 			<br />CONTRACT OWNERSHIP RENOUNCED
-			<br />AIRDROP IN PROGRESS
+			<br /><strong>AIRDROP IN PROGRESS</strong>
 		</p>
 	</div>
 </div>
